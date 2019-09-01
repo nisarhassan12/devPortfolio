@@ -1,0 +1,34 @@
+{
+  "name": "devportfolio",
+  "version": "1.0.0",
+  "description": "A Beautiful Responsive Portfolio site for web Developers.",
+  "main": "index.js",
+  "dependencies": {
+    "parcel": "^1.12.3"
+  },
+  "devDependencies": {
+    "sass": "^1.22.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./src/index.html",
+    "prod": "parcel prod ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nisarhassan12/devPortfolio.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "SCSS",
+    "JS",
+    "Portfolio"
+  ],
+  "author": "Dave Siebel and Syed Nisar Hassan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nisarhassan12/devPortfolio/issues"
+  },
+  "homepage": "https://github.com/nisarhassan12/devPortfolio#readme"
+}
