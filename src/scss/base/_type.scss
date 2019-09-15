@@ -1,0 +1,17 @@
+/* ------------------------------------------- */
+/* ----- Typegraphy ----- */
+/* ------------------------------------------- */
+
+.heading-primary {
+    margin-bottom: 3rem;
+    &--main {
+        display: block;
+        font-size: 6rem;
+        margin-bottom: 1.2rem;
+    }
+
+    &--sub {
+        font-size: 5rem;
+        font-weight: 300;
+    }
+}

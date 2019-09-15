@@ -1,0 +1,23 @@
+/* ------------------------------------------- */
+/* ----- Header ----- */
+/* ------------------------------------------- */
+
+.header {
+    height: 100vh;
+    padding: .1rem;
+    color: rgba(255, 255, 255, 0.8);
+    background: linear-gradient( rgba(0,0,0, .8), rgba(0,0,0, .8)), url('../resources/header.jpg');
+    background-size: cover;
+    background-position: center;
+
+
+    &__text-box {
+        position: absolute;
+        top: 40%;
+    }
+
+    .btn {
+        color: inherit;
+    }
+
+}

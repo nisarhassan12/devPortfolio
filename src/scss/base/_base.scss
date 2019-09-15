@@ -1,0 +1,24 @@
+/* ------------------------------------------- */
+/* ----- Basic Setup ----- */
+/* ------------------------------------------- */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;// 16 / 10 * 100 = 62.5%
+}
+
+body {
+    font-family: 'Josefin sans', sans-serif;
+    font-size: $default-font-size;
+    color: #555;
+    background: #fff;
+    box-sizing: border-box;
+}
+
