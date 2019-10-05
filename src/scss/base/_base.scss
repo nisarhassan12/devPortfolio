@@ -18,7 +18,11 @@ body {
     font-family: 'Josefin sans', sans-serif;
     font-size: $default-font-size;
     color: #555;
+    line-height: 1.6;
     background: #fff;
     box-sizing: border-box;
 }
 
+section {
+    padding: 10rem 0;
+}

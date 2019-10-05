@@ -21,3 +21,36 @@
     }
 
 }
+
+/* ------------------------------------------- */
+/* ----- Header ----- */
+/* ------------------------------------------- */
+
+.about {
+
+    &__content {
+        display: flex;
+        align-items: center;
+    }
+
+    &__img {
+        height: 35rem;
+        display: block;
+        box-shadow: 0 1rem 3rem rgba(0,0,0, .2);
+        transition: .4s all;
+
+        &:hover {
+            box-shadow: 0 2rem 4rem rgba(0,0,0, .25);
+        }
+
+        &-container {
+            background: #000;
+        }
+    }
+
+    &__text {
+        margin-left: 4rem;
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+}
